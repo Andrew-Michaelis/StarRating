@@ -1,0 +1,22 @@
+.rating span:before {
+  content: "☆"; /*spans in rating class contain a star shaped ascii character*/
+}
+.rating .blank:before {
+  content: "★"; /*spans in rating class labled blank have a solid color star shaped ascii character*/
+}
+.rating{ 
+  font-size:26px; /*contents of rating class are at font size 26*/
+}
+#preview{
+  font-size: 14px; /*contents of preview div are at font size 14*/
+}
+.btn{ /*contents of btn class*/
+  background-color: #bada55; /*have a badass background color and more*/
+  border:none;
+  color:darkslategray;
+  padding:5px; 
+  text-align:center;
+  text-decoration: none;
+  display:inline-block;
+  font-size:16px;
+}
